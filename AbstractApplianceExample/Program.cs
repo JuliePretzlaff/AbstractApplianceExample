@@ -10,6 +10,12 @@ namespace AbstractApplianceExample
     {
         static void Main(string[] args)
         {
+            Microwave microOne = new Microwave(1000, "Samsung");
+
+            Dishwasher washerOne = new Dishwasher(0, true);
+
+            microOne.Work();
+            washerOne.Work();
         }
     }
 }

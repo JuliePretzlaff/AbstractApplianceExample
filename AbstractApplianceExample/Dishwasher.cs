@@ -32,7 +32,8 @@ namespace AbstractApplianceExample
         //methods:
         public override void Work()
         {
-
+            Console.WriteLine("I wash your dishes.");
+            Console.WriteLine("wash wash wash wash wash wash wash wash");
         }
 
     }
